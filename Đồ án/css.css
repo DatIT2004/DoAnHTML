@@ -1,6 +1,64 @@
 :root{
     --primary-color:#85C94F;
 }
+.sdt{
+    
+    display: flex;
+    padding-top: 3px;
+}
+.sdt1{
+    font-size: 18px;
+}
+.gach{
+    color: #e5e5e5;
+    margin-left: 40px;
+}
+.dc{
+    padding-top: 5px ;
+    display: flex;
+}
+.sdtdc{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    height: 35px;
+}
+.icon{
+    color: var(--primary-color);
+    font-size: 22px;
+    margin-top:16px;
+    margin-right: 12px;
+}
+header{
+    display: flex;
+    gap:100px;
+}
+.logo{
+    margin-left: 135px;
+}
+.search{
+    display: flex;
+    /*do day*/
+    border:1px solid #e5e5e5;
+    height: 50px;
+    margin-top:30px;
+    border-radius: 6px;
+}
+input{
+    width: 790px;
+    border-radius: 6px;
+    border:none;
+    outline: none;
+    padding-left: 10px;
+}
+.nuttimkiem{
+    width: 80px;
+    border:none;
+}
+.nuttimkiem:hover{
+    background-color: var(--primary-color);
+    color:white;
+}
 body{
     margin: 0;
 }
@@ -20,7 +78,7 @@ main{
     background-color:#F1F1F1;
     justify-content: center;
     width: 100%;
-    gap:25px;
+    gap:18px;
 }
 .tab{
     display:flex;
@@ -61,10 +119,10 @@ main{
     width: 180px;
     height: 40px;
     text-align: center;
-    margin-left: 11px;
+    margin-left: 2px;
 }
 .money{
-    margin-left: 14px;
+    margin-left: 8px;
     color:  var(--primary-color);
 }
 .button:hover{
